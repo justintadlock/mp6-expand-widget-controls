@@ -8,8 +8,16 @@
  * Author URI: http://justintadlock.com
  */
 
+/* Hook to the footer on the widgets screen. */
 add_action( 'admin_footer-widgets.php', 'mp6ewc_widgets_footer' );
 
+/**
+ * Outputs our JS.
+ *
+ * @since  0.1.0
+ * @access public
+ * @return void
+ */
 function mp6ewc_widgets_footer() { ?>
 
 	<script type="text/javascript">
